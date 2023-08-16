@@ -6,7 +6,7 @@ This application has 5 main object that have their respective responsibilities.
  - **ROMAN HASHMAP** : This object save roman number as a key and arabic number as a value.
  - **TRANSLATOR**: Used to change the foreign word to arabic value number. Translator depends on Roman Hashmap And Currency Object.
  - **CURRENCY**: Used to store information about currency like IRON, SILVER GOLD.
- - **PARSER**: extract information from statement that user write. Information that can be extract can be new Currency, foreign numbers and question.
+ - **PARSER**: extract information from statement using Regex that user write. Information that can be extract can be new Currency, foreign numbers and question.
  - **EVENTPROCESSOR**: used as the bridge/connector between input, processor, and output. Eventprocessor decide what type of statement that user input and decide what the output.
 
 ## Requirements
