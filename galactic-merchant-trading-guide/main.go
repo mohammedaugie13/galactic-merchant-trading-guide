@@ -29,7 +29,7 @@ func main() {
 		isContinue = false
 	})
 
-	fmt.Println(":: Intergalactic numerals conversion ::")
+	fmt.Println(":: Intergalatic Numeral Translation ::")
 
 	for isContinue {
 		stmt := readLine(reader)
